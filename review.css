@@ -1,0 +1,71 @@
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    
+}
+
+.review .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: #C1DCE7;
+    border-radius: .5rem;
+    padding:3rem 2rem;
+    position: relative;
+    border:.1rem solid #C1DCE7;
+}
+
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    bottom:3rem; right:3rem;
+    font-size: 6rem;
+    color:rgb(37, 32, 32);
+}
+
+.review .box-container .box .stars i{
+    color:var(--pink);
+    font-size: 2rem;
+}
+
+.review .box-container .box p{
+    color:rgb(38, 38, 41);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+   background-color: #C1DCE7;
+}
+
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.review .box-container .box .user img{
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.review .box-container .box .user h3{
+    font-size: 2rem;
+    color:#333;
+}
+
+.review .box-container .box .user span{
+    font-size: 1.5rem;
+    color:rgb(151, 75, 75);
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(212, 192, 192);
+    padding:1rem;
+    margin:2rem 0;
+    background-color:#C1DCE7;
+}
+
+.heading span{
+    color:rgb(191, 31, 85);
+}
