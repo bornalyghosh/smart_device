@@ -17,7 +17,7 @@
     
             <div class="image-container">
                 <img src="imgs/home.jpg" ></img>
-                <h3>Best Device ever</h3>
+                <h3>Best Device </h3>
             </div>
     
             <div class="content">
